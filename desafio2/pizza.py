@@ -14,6 +14,12 @@ ingredientes_proteinas = ["pollo" , "vacuno", "carne vegetal"]
 print(Pizza.precio)
 print(Pizza.tamaño)
 
+@staticmethod
+def tipo_masa(masa):
+    if masa == "delgada":
+        return 'Has escogido masa delgada.'
+    elif masa == "tradicional":
+        return 5, 'Has escogido masa tradicional'
 
 """"
 print("Bienvenido a nuestra Pizzería")
