@@ -8,9 +8,6 @@ class Pizza():
 delgada = Pizza()
 tradicional = Pizza()
 
-#ingredientes_vegetales = ["tomate", "aceitunas", "champiñones"]
-#ingredientes_proteinas = ["pollo" , "vacuno", "carne vegetal"]
-
 print(Pizza.precio)
 print(Pizza.tamaño)
 
