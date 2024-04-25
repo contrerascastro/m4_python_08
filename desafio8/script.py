@@ -6,8 +6,6 @@ import os
 
 lista=[]
 
-
-
 try:
     with open("usuarios.txt") as usuarios:
         # linea = usuarios.readline()
